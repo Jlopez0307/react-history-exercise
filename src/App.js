@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import JokeList from "./JokeList";
+import JokeList2 from "./components/JokeList2";
 
 /** App component. Renders list of jokes. */
 
@@ -20,6 +21,7 @@ const App = () => {
   return (
     <div className="App">
       <JokeList />
+      <JokeList2 />
     </div>
   );
 }
